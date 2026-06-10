@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>影片搜索 - 日韩在线视频大全</title>
+    <meta name="description" content="日韩在线视频大全搜索页，支持按片名、类型、地区、年份、标签搜索日韩电影、剧集与动漫内容。">
+    <meta name="keywords" content="日韩视频,在线观看,日韩电影,韩国电视剧,日本动漫,免费视频,高清在线,影片搜索,影视搜索">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="./assets/app.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="./index.html" aria-label="日韩在线视频大全">
+                <span class="brand-mark">▶</span>
+                <span class="brand-text">
+                    <strong>日韩在线视频大全</strong>
+                    <small>免费高清在线观看</small>
+                </span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a class="nav-link " href="./index.html">首页</a>
+                <a class="nav-link " href="./categories.html">分类</a>
+                <a class="nav-link " href="./rank.html">热播榜</a>
+                <a class="nav-link " href="./category-jp-kr-hot.html">日韩热映</a>
+                <a class="nav-link " href="./category-movie-picks.html">电影精选</a>
+                <a class="nav-link " href="./category-series-zone.html">剧集专区</a>
+            </nav>
+            <form class="header-search" action="./search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、类型、标签" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false">☰</button>
+        </div>
+        <div class="mobile-panel" hidden>
+            <form class="mobile-search" action="./search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、类型、标签" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <nav class="mobile-nav" aria-label="移动端导航">
+                    <a class="mobile-nav-link " href="./index.html">首页</a>
+                    <a class="mobile-nav-link " href="./categories.html">分类</a>
+                    <a class="mobile-nav-link " href="./rank.html">热播榜</a>
+                    <a class="mobile-nav-link " href="./category-jp-kr-hot.html">日韩热映</a>
+                    <a class="mobile-nav-link " href="./category-movie-picks.html">电影精选</a>
+                    <a class="mobile-nav-link " href="./category-series-zone.html">剧集专区</a>
+            </nav>
+        </div>
+    </header>
+    <main class="page-shell">
+        <section class="page-hero soft-hero">
+            <span class="eyebrow">影片搜索</span>
+            <h1>搜索片名、类型与标签</h1>
+            <p>输入关键词后可按标题、简介、年份、地区、类型和标签快速查找相关影片。</p>
+            <form class="page-search search-page-form" action="./search.html" method="get">
+                <input type="search" name="q" id="searchInput" placeholder="输入关键词" autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+        </section>
+        <section class="content-section search-results-section">
+            <div class="section-heading small-heading">
+                <div>
+                    <span class="section-kicker">搜索结果</span>
+                    <h2 id="searchTitle">热门推荐</h2>
+                    <p id="searchDesc">可直接点击影片卡片进入播放详情页。</p>
+                </div>
+            </div>
+            <div class="movie-grid compact-grid" id="searchResults">
+            <article class="movie-card movie-card-compact" data-title="反斗小宝贝" data-year="2023" data-type="剧集" data-region="美国" data-tags="萌娃 逆袭 校园 爆笑 成长">
+                <a class="poster-link" href="./movie-1147.html" aria-label="观看反斗小宝贝">
+                    <img src="./97.jpg" alt="反斗小宝贝" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">剧集</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1147.html">反斗小宝贝</a></h3>
+                    <p>五个被全校嫌弃的“问题儿童”，意外解锁了拯救学校的神秘任务。</p>
+                    <div class="movie-meta">
+                        <span>2023</span>
+                        <span>美国</span>
+                    </div>
+                    <div class="tag-row">
+                <span>萌娃</span>
+                <span>逆袭</span>
+                <span>校园</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="三只小猪" data-year="2024" data-type="电影" data-region="英国" data-tags="颠覆童话 职场喜剧 建筑业 大灰狼资本家">
+                <a class="poster-link" href="./movie-1184.html" aria-label="观看三只小猪">
+                    <img src="./134.jpg" alt="三只小猪" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1184.html">三只小猪</a></h3>
+                    <p>三只小猪不是兄弟，而是三家建筑公司的竞争同行，大灰狼则是来搞恶意收购的资本大鳄。</p>
+                    <div class="movie-meta">
+                        <span>2024</span>
+                        <span>英国</span>
+                    </div>
+                    <div class="tag-row">
+                <span>颠覆童话</span>
+                <span>职场喜剧</span>
+                <span>建筑业</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="帕坦" data-year="2025" data-type="电影" data-region="印度" data-tags="谍战 宝莱坞 反恐 肌肉猛男 逆转">
+                <a class="poster-link" href="./movie-1221.html" aria-label="观看帕坦">
+                    <img src="./21.jpg" alt="帕坦" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1221.html">帕坦</a></h3>
+                    <p>一名退役的印度特工被“复活”，要去劫持一架被巴基斯坦叛军占领的客机，但他不知道自己才是真正的目标。</p>
+                    <div class="movie-meta">
+                        <span>2025</span>
+                        <span>印度</span>
+                    </div>
+                    <div class="tag-row">
+                <span>谍战</span>
+                <span>宝莱坞</span>
+                <span>反恐</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="胖胖裤猪" data-year="2024" data-type="动画剧集" data-region="美国" data-tags="萌系 无厘头 低幼向 治愈 搞笑">
+                <a class="poster-link" href="./movie-1258.html" aria-label="观看胖胖裤猪">
+                    <img src="./58.jpg" alt="胖胖裤猪" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">动画剧集</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1258.html">胖胖裤猪</a></h3>
+                    <p>一条永远穿不上裤子的粉色小猪，和他的森林朋友们每天制造笑料。</p>
+                    <div class="movie-meta">
+                        <span>2024</span>
+                        <span>美国</span>
+                    </div>
+                    <div class="tag-row">
+                <span>萌系</span>
+                <span>无厘头</span>
+                <span>低幼向</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="地狱公使第二季" data-year="2025" data-type="电视剧" data-region="韩国" data-tags="神魔 审判 复活 信仰崩塌">
+                <a class="poster-link" href="./movie-1295.html" aria-label="观看地狱公使第二季">
+                    <img src="./95.jpg" alt="地狱公使第二季" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电视剧</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1295.html">地狱公使第二季</a></h3>
+                    <p>地狱公使消失三年后，那些曾被宣告下地狱的“罪人”竟然毫发无伤地复活了，而新的死亡宣告开始指向那些虔诚的信徒。</p>
+                    <div class="movie-meta">
+                        <span>2025</span>
+                        <span>韩国</span>
+                    </div>
+                    <div class="tag-row">
+                <span>神魔</span>
+                <span>审判</span>
+                <span>复活</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="奇迹女人" data-year="2021" data-type="电影" data-region="美国" data-tags="女性超级英雄 超能力觉醒 母女">
+                <a class="poster-link" href="./movie-1332.html" aria-label="观看奇迹女人">
+                    <img src="./132.jpg" alt="奇迹女人" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1332.html">奇迹女人</a></h3>
+                    <p>全职妈妈意外获得超能力，但她的超能力只在家务活范围内有效。</p>
+                    <div class="movie-meta">
+                        <span>2021</span>
+                        <span>美国</span>
+                    </div>
+                    <div class="tag-row">
+                <span>女性超级英雄</span>
+                <span>超能力觉醒</span>
+                <span>母女</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="女魔" data-year="1987" data-type="电影" data-region="中国香港" data-tags="女杀手 复仇 黑帮火并 港式暴力美学 悲情女主">
+                <a class="poster-link" href="./movie-1369.html" aria-label="观看女魔">
+                    <img src="./19.jpg" alt="女魔" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1369.html">女魔</a></h3>
+                    <p>一名被黑帮灭门的柔弱女子，十年后化身为冷血女杀手逐个复仇，却发现自己早已分不清正义与疯狂。</p>
+                    <div class="movie-meta">
+                        <span>1987</span>
+                        <span>中国香港</span>
+                    </div>
+                    <div class="tag-row">
+                <span>女杀手</span>
+                <span>复仇</span>
+                <span>黑帮火并</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="灵雾岛" data-year="2023" data-type="网络电影" data-region="中国大陆" data-tags="孤岛 民俗恐怖 幻觉 遗产阴谋 科学解密">
+                <a class="poster-link" href="./movie-1406.html" aria-label="观看灵雾岛">
+                    <img src="./56.jpg" alt="灵雾岛" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">网络电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1406.html">灵雾岛</a></h3>
+                    <p>七个互不相识的人被邀请到一座终年雾锁的孤岛，每个夜晚，雾气都会幻化成他们内心最恐惧的东西。</p>
+                    <div class="movie-meta">
+                        <span>2023</span>
+                        <span>中国大陆</span>
+                    </div>
+                    <div class="tag-row">
+                <span>孤岛</span>
+                <span>民俗恐怖</span>
+                <span>幻觉</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="异形战争" data-year="2021" data-type="电影" data-region="美国" data-tags="外星入侵 地面战争 小人物 最后防线 父子兵">
+                <a class="poster-link" href="./movie-1443.html" aria-label="观看异形战争">
+                    <img src="./93.jpg" alt="异形战争" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1443.html">异形战争</a></h3>
+                    <p>外星舰队入侵地球后，一名退役老兵带着叛逆的儿子，用越战时期的游击战术打响了最后的反击。</p>
+                    <div class="movie-meta">
+                        <span>2021</span>
+                        <span>美国</span>
+                    </div>
+                    <div class="tag-row">
+                <span>外星入侵</span>
+                <span>地面战争</span>
+                <span>小人物</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="错转乾坤" data-year="2025" data-type="电影" data-region="中国香港" data-tags="黑帮 时间回溯 复仇 港风 暴力美学">
+                <a class="poster-link" href="./movie-1480.html" aria-label="观看错转乾坤">
+                    <img src="./130.jpg" alt="错转乾坤" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1480.html">错转乾坤</a></h3>
+                    <p>小混混每次被杀都会回到当天早上，他用无限复活单挑整个黑帮。</p>
+                    <div class="movie-meta">
+                        <span>2025</span>
+                        <span>中国香港</span>
+                    </div>
+                    <div class="tag-row">
+                <span>黑帮</span>
+                <span>时间回溯</span>
+                <span>复仇</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="鬼雾" data-year="2024" data-type="剧集" data-region="泰国" data-tags="民俗恐怖 村庄禁忌 层层反转">
+                <a class="poster-link" href="./movie-1517.html" aria-label="观看鬼雾">
+                    <img src="./17.jpg" alt="鬼雾" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">剧集</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1517.html">鬼雾</a></h3>
+                    <p>每年雾季，村里会消失一个人，而今年雾季提前了整整三个月。</p>
+                    <div class="movie-meta">
+                        <span>2024</span>
+                        <span>泰国</span>
+                    </div>
+                    <div class="tag-row">
+                <span>民俗恐怖</span>
+                <span>村庄禁忌</span>
+                <span>层层反转</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="流浪的光棍生活" data-year="2024" data-type="电视剧" data-region="中国大陆" data-tags="大龄单身 租房 职场 友情 治愈">
+                <a class="poster-link" href="./movie-1554.html" aria-label="观看流浪的光棍生活">
+                    <img src="./54.jpg" alt="流浪的光棍生活" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电视剧</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1554.html">流浪的光棍生活</a></h3>
+                    <p>三个大龄光棍合租一套房，一个想结婚，一个不想结，一个结不了。</p>
+                    <div class="movie-meta">
+                        <span>2024</span>
+                        <span>中国大陆</span>
+                    </div>
+                    <div class="tag-row">
+                <span>大龄单身</span>
+                <span>租房</span>
+                <span>职场</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="东德蕾丝的爱欲" data-year="2025" data-type="电影" data-region="德国" data-tags="冷战 女同 蕾丝工厂 禁忌之恋">
+                <a class="poster-link" href="./movie-1591.html" aria-label="观看东德蕾丝的爱欲">
+                    <img src="./91.jpg" alt="东德蕾丝的爱欲" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1591.html">东德蕾丝的爱欲</a></h3>
+                    <p>1970年代东德，在一家国营蕾丝工厂里，一个斯大林主义的模范女工与一个颓废的厂医之间，展开了一段跨越意识形态的隐秘爱恋。</p>
+                    <div class="movie-meta">
+                        <span>2025</span>
+                        <span>德国</span>
+                    </div>
+                    <div class="tag-row">
+                <span>冷战</span>
+                <span>女同</span>
+                <span>蕾丝工厂</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="泽西海岸凶鲨案" data-year="2023" data-type="电影" data-region="美国" data-tags="鲨鱼 夏日恐怖 小镇阴谋 血染海滩">
+                <a class="poster-link" href="./movie-1628.html" aria-label="观看泽西海岸凶鲨案">
+                    <img src="./128.jpg" alt="泽西海岸凶鲨案" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1628.html">泽西海岸凶鲨案</a></h3>
+                    <p>新泽西海滨小镇狂欢节上，游客接连消失，一只巨鲨背后竟隐藏着政府的生物实验阴谋。</p>
+                    <div class="movie-meta">
+                        <span>2023</span>
+                        <span>美国</span>
+                    </div>
+                    <div class="tag-row">
+                <span>鲨鱼</span>
+                <span>夏日恐怖</span>
+                <span>小镇阴谋</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="儍瓜艳史" data-year="1992" data-type="电影" data-region="中国香港" data-tags="港式喜剧 底层逆袭 乌龙 市井">
+                <a class="poster-link" href="./movie-1665.html" aria-label="观看儍瓜艳史">
+                    <img src="./15.jpg" alt="儍瓜艳史" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1665.html">儍瓜艳史</a></h3>
+                    <p>一个被女友甩了的穷小子，阴差阳错被全城最富有的千金小姐当成了救命恩人。</p>
+                    <div class="movie-meta">
+                        <span>1992</span>
+                        <span>中国香港</span>
+                    </div>
+                    <div class="tag-row">
+                <span>港式喜剧</span>
+                <span>底层逆袭</span>
+                <span>乌龙</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="控告老天" data-year="2019" data-type="电影" data-region="美国" data-tags="法律 信仰危机 法庭辩论">
+                <a class="poster-link" href="./movie-1702.html" aria-label="观看控告老天">
+                    <img src="./52.jpg" alt="控告老天" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1702.html">控告老天</a></h3>
+                    <p>一场飓风摧毁小镇后，一位无神论律师代表幸存者将“上帝”告上了法庭。</p>
+                    <div class="movie-meta">
+                        <span>2019</span>
+                        <span>美国</span>
+                    </div>
+                    <div class="tag-row">
+                <span>法律</span>
+                <span>信仰危机</span>
+                <span>法庭辩论</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="名侦探柯南国语版" data-year="1999" data-type="剧集" data-region="日本" data-tags="国配 童年经典 单元探案 黑衣组织">
+                <a class="poster-link" href="./movie-1739.html" aria-label="观看名侦探柯南国语版">
+                    <img src="./89.jpg" alt="名侦探柯南国语版" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">剧集</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1739.html">名侦探柯南国语版</a></h3>
+                    <p>变成小学生的工藤新一用蝴蝶结变声器揭开连环密室杀人案的惊人真相。</p>
+                    <div class="movie-meta">
+                        <span>1999</span>
+                        <span>日本</span>
+                    </div>
+                    <div class="tag-row">
+                <span>国配</span>
+                <span>童年经典</span>
+                <span>单元探案</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="试着死了一次" data-year="2022" data-type="电影" data-region="日本" data-tags="死亡体验 人生回顾 黑色幽默 重生">
+                <a class="poster-link" href="./movie-1776.html" aria-label="观看试着死了一次">
+                    <img src="./126.jpg" alt="试着死了一次" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1776.html">试着死了一次</a></h3>
+                    <p>一位对生活绝望的上班族加入“死亡体验俱乐部”，却发现每次假死都会删除一段真实记忆。</p>
+                    <div class="movie-meta">
+                        <span>2022</span>
+                        <span>日本</span>
+                    </div>
+                    <div class="tag-row">
+                <span>死亡体验</span>
+                <span>人生回顾</span>
+                <span>黑色幽默</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="燃烧的国土" data-year="2025" data-type="电影" data-region="美国" data-tags="复仇 雇佣兵 丛林 火攻 硬核">
+                <a class="poster-link" href="./movie-1813.html" aria-label="观看燃烧的国土">
+                    <img src="./13.jpg" alt="燃烧的国土" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1813.html">燃烧的国土</a></h3>
+                    <p>一名退役消防员转型的雇佣兵，回到被军阀占领的家乡，利用火灾动力学智取敌人。</p>
+                    <div class="movie-meta">
+                        <span>2025</span>
+                        <span>美国</span>
+                    </div>
+                    <div class="tag-row">
+                <span>复仇</span>
+                <span>雇佣兵</span>
+                <span>丛林</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="这些女人们" data-year="2024" data-type="剧集" data-region="日本" data-tags="职场 女性群像 复仇 非典型">
+                <a class="poster-link" href="./movie-1850.html" aria-label="观看这些女人们">
+                    <img src="./50.jpg" alt="这些女人们" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">剧集</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1850.html">这些女人们</a></h3>
+                    <p>一家百年出版社的编辑部全是女性，她们的专业不是出书，而是通过出版来操控舆论与股价。</p>
+                    <div class="movie-meta">
+                        <span>2024</span>
+                        <span>日本</span>
+                    </div>
+                    <div class="tag-row">
+                <span>职场</span>
+                <span>女性群像</span>
+                <span>复仇</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="夺命提款机" data-year="2024" data-type="电影" data-region="中国香港" data-tags="都市传说 贪欲 复仇 因果报应 密室">
+                <a class="poster-link" href="./movie-1887.html" aria-label="观看夺命提款机">
+                    <img src="./87.jpg" alt="夺命提款机" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1887.html">夺命提款机</a></h3>
+                    <p>一个都市传说：半夜取款时输入密码倒过来，提款机会吐出双倍现金，但取钱的人都会在三天内惨死。</p>
+                    <div class="movie-meta">
+                        <span>2024</span>
+                        <span>中国香港</span>
+                    </div>
+                    <div class="tag-row">
+                <span>都市传说</span>
+                <span>贪欲</span>
+                <span>复仇</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="哎哟哥哥" data-year="2024" data-type="网络短剧" data-region="中国大陆" data-tags="兄妹 虚拟偶像 跨次元 短小精悍">
+                <a class="poster-link" href="./movie-1924.html" aria-label="观看哎哟哥哥">
+                    <img src="./124.jpg" alt="哎哟哥哥" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">网络短剧</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1924.html">哎哟哥哥</a></h3>
+                    <p>一个社恐女孩的虚拟偶像“哥哥”突然从屏幕里走出来，成了她的全职保姆。</p>
+                    <div class="movie-meta">
+                        <span>2024</span>
+                        <span>中国大陆</span>
+                    </div>
+                    <div class="tag-row">
+                <span>兄妹</span>
+                <span>虚拟偶像</span>
+                <span>跨次元</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="杀人不难剧版" data-year="2025" data-type="剧集" data-region="英国" data-tags="阿加莎 改编 连环杀手 乡村">
+                <a class="poster-link" href="./movie-1961.html" aria-label="观看杀人不难剧版">
+                    <img src="./11.jpg" alt="杀人不难剧版" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">剧集</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1961.html">杀人不难剧版</a></h3>
+                    <p>退休女教师说“我住的村子杀人不难”，第二天她就死了，伦敦警探发现整个村都在说谎。</p>
+                    <div class="movie-meta">
+                        <span>2025</span>
+                        <span>英国</span>
+                    </div>
+                    <div class="tag-row">
+                <span>阿加莎</span>
+                <span>改编</span>
+                <span>连环杀手</span>
+                    </div>
+                </div>
+            </article>
+            <article class="movie-card movie-card-compact" data-title="小惊喜" data-year="2024" data-type="电影" data-region="中国大陆" data-tags="阿尔茨海默 孙女 谎言">
+                <a class="poster-link" href="./movie-1998.html" aria-label="观看小惊喜">
+                    <img src="./48.jpg" alt="小惊喜" loading="lazy" onerror="this.style.opacity='0';">
+                    <span class="poster-play">▶</span>
+                    <span class="poster-badge">电影</span>
+                </a>
+                <div class="movie-card-body">
+                    <h3><a href="./movie-1998.html">小惊喜</a></h3>
+                    <p>奶奶认不出孙女，但每天都会收到“陌生人”送来年轻时最爱吃的杨梅糖。</p>
+                    <div class="movie-meta">
+                        <span>2024</span>
+                        <span>中国大陆</span>
+                    </div>
+                    <div class="tag-row">
+                <span>阿尔茨海默</span>
+                <span>孙女</span>
+                <span>谎言</span>
+                    </div>
+                </div>
+            </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <a class="footer-logo" href="./index.html">日韩在线视频大全</a>
+                <p>日韩在线视频大全，提供最新日韩电影、热门剧集、精彩综艺节目免费在线观看。尽享丰富的影视类型，感受视觉与心灵的双重享受！</p>
+            </div>
+            <div class="footer-group">
+                <h2>频道入口</h2>
+                <ul>
+                    <li><a href="./category-jp-kr-hot.html">日韩热映</a></li>
+                    <li><a href="./category-movie-picks.html">电影精选</a></li>
+                    <li><a href="./category-series-zone.html">剧集专区</a></li>
+                    <li><a href="./category-anime-new.html">动漫新番</a></li>
+                    <li><a href="./category-romance-drama.html">爱情剧情</a></li>
+                    <li><a href="./category-mystery-crime.html">悬疑犯罪</a></li>
+                </ul>
+            </div>
+            <div class="footer-group">
+                <h2>快速浏览</h2>
+                <ul>
+                    <li><a href="./categories.html">全部分类</a></li>
+                    <li><a href="./rank.html">热播榜单</a></li>
+                    <li><a href="./search.html">影片搜索</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 日韩在线视频大全</div>
+    </footer>
+    <script src="./assets/app.js"></script>
+    <script src="./assets/search-data.js"></script>
+    <script src="./assets/search.js"></script>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+    </script>
+</body>
+</html>
